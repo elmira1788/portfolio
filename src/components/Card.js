@@ -2,7 +2,7 @@ import React from 'react'
 import './card.css'
 
 
-const Card = ({title, img, github }) => {
+const Card = ({title, img, github, demo }) => {
     
   return (        
         <div className="card">
@@ -15,7 +15,7 @@ const Card = ({title, img, github }) => {
                 <div className="content">
                     <p>{title}</p>
                     <h3>
-                        <a href='/'><i className="fa-solid fa-link"></i></a>
+                        <a href={demo}><i className="fa-solid fa-link"></i></a>
                         <a href={github}><i className="fa-brands fa-square-github"></i></a>
                     </h3>
                 </div>
