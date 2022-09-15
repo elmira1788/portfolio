@@ -1,0 +1,23 @@
+.project {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.project h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: aliceblue;
+    text-decoration: underline orange;
+    text-underline-offset: 0.5rem;
+    padding: 2rem;
+}
+.project .card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0rem 5rem;
+}

@@ -1,0 +1,87 @@
+
+.navbar {
+    position: fixed;
+    width: 100vw;
+    background-color: rgb(35, 57, 91);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    z-index: 10;
+
+}
+
+
+.navbar .leftSide a {
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 25px;
+    
+}
+.navbar .leftSide img {
+    border-radius: 50%;
+}
+.navbar .rightSide {
+    padding: 20px;
+    
+}
+
+.navbar .rightSide a {  
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1rem 1rem;
+}
+.navbar .rightSide button {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 25px;
+    border: none;
+    outline: none;
+    background-color: rgb(35, 57, 91);
+    color: aliceblue
+}
+
+.navbar .rightSide a:hover {
+    background-color: rgb(64, 110, 142);
+    border-radius: 4px;
+    transition: all 0.5s ease-out;
+}
+.navbar .rightSide a:active {
+    background-color: rgb(64, 110, 142);
+    border-radius: 4px;
+   
+}
+
+
+@media only screen and (max-width: 550px) {
+    .navbar .rightSide button {
+    display: flex;
+    }
+    .navbar .rightSide .links{
+    display: none;
+    }
+    .navbar .rightSide #hidden {
+        position: absolute;
+        width: 100%;
+        height: 280px;
+        top: 80px;
+        left: 0;
+        background-color: rgb(35, 57, 91);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+
+    }
+    .navbar .rightSide #hidden a {
+        margin: 5px;
+        font-size: 20px;
+    }
+}

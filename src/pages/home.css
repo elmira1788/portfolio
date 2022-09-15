@@ -1,0 +1,39 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    
+}
+.home {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.home h1{
+    color: orange;
+    font-size: 4rem;
+    padding: 5px;
+    font-family: 'Lobster', cursive;
+    
+
+}
+.home h2{
+    color: aliceblue;
+    font-size: 2rem;
+    padding: 5px;
+}
+.home p{
+    color: aliceblue;
+    font-size: 1.25rem;
+    padding: 5px;
+
+}
+@media only screen and (max-width: 500px) {
+    .home-container {
+       scale: 0.8; 
+    }
+}

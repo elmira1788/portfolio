@@ -1,0 +1,95 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 5rem;
+    
+}
+.about-container h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: aliceblue;
+    text-decoration: underline orange;
+    text-underline-offset: 0.5rem;
+    padding: 2rem;
+}
+
+.about {
+    width: 70%;
+    display: flex;
+
+    
+}
+
+.about h2{
+    
+    color: aliceblue;
+    font-size: 2rem;
+    padding: 10px;
+    
+}
+.about p{
+    
+    color: aliceblue;
+    font-size: 1.25rem;
+    padding: 10px;
+    border-left: solid 5px orange;
+
+}
+
+
+
+.about-container a {
+    margin: 2rem;
+    color: aliceblue;
+    outline: none;
+    border-radius: 10px;
+    background-color: orange;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    
+}
+.about-container a .about-btn {
+    font-size: 20px;
+    font-weight: 800;
+}
+.about-container a:hover {
+    background-color: aliceblue;
+    color: orange;
+    transition: ease all 0.5s;
+}
+.about-container a:hover i {
+    transform:rotate(90deg);
+    /* transition: ease all 0.5s; */
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+       flex-direction: column;
+       border: none;
+    }
+    
+    .about p{
+    
+        border-left: none;
+    
+    }
+}
+@media only screen and (max-width: 600px) {
+    .about h2{
+       font-size: 1.5rem;
+    }
+    
+    .about p{
+        font-size: 1rem;
+    
+    }
+}

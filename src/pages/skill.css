@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.skill-container {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-container .skill-header {
+
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: aliceblue;
+    text-decoration: underline orange;
+    text-underline-offset: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.skill-container .skill-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0rem 5rem;
+    
+}
+.skill-container .skill-image .image{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgb(35, 57, 91);
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+    border-radius: 10px;
+    color: aliceblue;
+    
+} 
+.skill-container .skill-image .image:hover {
+    transition: all ease 0.75s;
+    background: transparent;
+}
+
+.skill-container .skill-image p {
+    margin-top: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 600;
+}
