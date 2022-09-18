@@ -43,7 +43,7 @@ const Project = () => {
       title: 'Fire Game',
       img: Game,
       description: 'Search for a video game, and see the popular,upcoming and new games',
-      skills:'React, Styled Component',
+      skills:'React, Redux, Styled Component',
       github: 'https://github.com/HannanAzari/fire-games',
       demo: 'https://hannanazari.github.io/fire-games/'
     },

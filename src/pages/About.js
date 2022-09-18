@@ -11,7 +11,7 @@ const About = () => {
       <div  className='about'>
         
         <h2>Talented Front-End Web Developer with a desire to learn and grow in a collaborative team environment.</h2>
-        <p>I am a creative Structural Engineer with extensive experience in delivering complex projects. Besides, I have always wanted to be a Software Engineer. So, I decided to start my career by enrolling Front-end Web Developement in General Assembly. I am passionate about building excellent applications that improve the lives of those around me. Specializing in building and (occasionally designing) exeptional digital experiences. Currently, I'm focused on building responsive single-page web applications.</p>
+        <p>I am a creative Structural Engineer and Construction Project Manager with extensive experience in delivering complex projects. Besides, I have always wanted to be a Software Engineer. So, I decided to start my career by enrolling Front-end Web Development in General Assembly. I am passionate about building excellent applications that improve the lives of those around me. Specialising in building and (occasionally designing) exceptional digital experiences. Currently, I'm focused on building responsive single-page web applications.</p>
         
 
       </div>
