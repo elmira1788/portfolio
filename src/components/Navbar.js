@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './navbar.css'
 // import { Link } from 'react-router-dom'
 import { Link } from 'react-scroll'
-import HA from '../images/HA (2).png'
+import HA from '../images/HA.png'
 
 
 const Navbar = () => {

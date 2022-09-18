@@ -59,7 +59,7 @@ const Resume = () => {
             {image.map((item) => {
               return (
               <div key={item.name} className='image'>
-                <img src={item.img} alt={item.name} width='100px' height='100px' />
+                <img src={item.img} alt={item.name} width='70px' height='70px' />
                 <p>{item.name}</p>
               </div>
             )})}

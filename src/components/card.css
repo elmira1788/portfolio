@@ -61,7 +61,13 @@
 .card:hover .face.face2{
     transform: translateY(-10px);
 }
-
+.card .face.face2 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
 .card .face.face2 .content p {
     margin: 0;
     padding: 0;
@@ -77,17 +83,6 @@
     text-align: center;
     color: #414141;
 } 
-/* .card .face.face2 i {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
-    transition: 0.7s;
-    color: black;
-    font-size: 40px;
-} */
-
 .card .face.face2 .content a{
     outline: none;
     border: none;

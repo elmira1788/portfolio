@@ -14,44 +14,56 @@ const Project = () => {
       id: 1,
       title: 'Crypto Website',
       img: Crypto,
+      description: 'Search for a crypto coin, and see the top 100 coins',
+      skills:'React, CSS',
       github: 'https://github.com/HannanAzari/crypto',
-      demo: 'https://hannanazari.github.io/portfolio/crypto/'
+      demo: 'https://hannanazari.github.io/crypto/'
     },
     {
       id: 2,
       title: 'Music Player',
       img: Music,
+      description: 'Listen to the list of music and switch between the songs',
+      skills:'React, CSS',
       github: 'https://github.com/HannanAzari/music-player',
-      demo: 'https://hannanazari.github.io/portfolio/music-player/'
+      demo: 'https://hannanazari.github.io/music-player/'
       
     },
     {
       id: 3,
       title: 'Food Recipe',
       img: Food,
+      description: 'Look for an ingredient to see the food recipes',
+      skills:'React, CSS',
       github: 'https://github.com/HannanAzari/food-recipe',
-      demo: 'https://hannanazari.github.io/portfolio/food-recipe/'
+      demo: 'https://hannanazari.github.io/food-recipe/'
     },
     {
       id: 4,
       title: 'Fire Game',
       img: Game,
-      github: 'https://github.com/HannanAzari/fire-game',
-      demo: 'https://hannanazari.github.io/portfolio/fire-game/'
+      description: 'Search for a video game, and see the popular,upcoming and new games',
+      skills:'React, Styled Component',
+      github: 'https://github.com/HannanAzari/fire-games',
+      demo: 'https://hannanazari.github.io/fire-games/'
     },
     {
       id: 5,
       title: 'Gym Exercises',
       img: Gym,
+      description: 'Browse exercises related to the specific muscles and see the GIF workout',
+      skills:'React, Material UI',
       github: 'https://github.com/HannanAzari/gym-exercises',
-      demo: 'https://hannanazari.github.io/portfolio/gym-exercises/'
+      demo: 'https://hannanazari.github.io/gym-exercises/'
     },
     {
       id: 6,
       title: 'To Do List',
       img: Todolist,
+      description: 'Make a list, tick when completed and remove as you wish',
+      skills:'React, CSS',
       github: 'https://github.com/HannanAzari/todolist',
-      demo: 'https://hannanazari.github.io/portfolio/todolist/'
+      demo: 'https://hannanazari.github.io/todolist/'
     }
     
   ]
@@ -66,6 +78,8 @@ const Project = () => {
             img={res.img}
             github={res.github}
             demo={res.demo}
+            description={res.description}
+            skills={res.skills}
           />
           ))}
       </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import './card.css'
 
 
-const Card = ({title, img, github, demo }) => {
+const Card = ({title, img, github, demo, description, skills }) => {
     
   return (        
         <div className="card">
@@ -13,11 +13,13 @@ const Card = ({title, img, github, demo }) => {
             </div>
             <div className="face face2">
                 <div className="content">
-                    <p>{title}</p>
-                    <h3>
+                    <h3>{title}</h3>
+                    <p>{description}</p>
+                    <h5>{skills}</h5>
+                    <div>
                         <a href={demo}><i className="fa-solid fa-link"></i></a>
                         <a href={github}><i className="fa-brands fa-square-github"></i></a>
-                    </h3>
+                    </div>
                 </div>
             </div>
         </div>
