@@ -5,28 +5,30 @@ import Game from '../images/game.png'
 import Food from '../images/food.png'
 import Crypto from '../images/crypto.png'
 import Gym from '../images/gym.png'
+import Movie from '../images/Movie.png'
 import Todolist from '../images/todolist.png'
+import Shopping from '../images/shopping.png'
 import './project.css'
 
 const Project = () => {
   const card = [
     {
       id: 1,
-      title: 'Crypto Website',
-      img: Crypto,
-      description: 'Search for a crypto coin, and see the top 100 coins',
-      skills:'React, CSS',
-      github: 'https://github.com/HannanAzari/crypto',
-      demo: 'https://hannanazari.github.io/crypto/'
+      title: 'Movie Lovers',
+      img: Movie,
+      description: 'A MERN app that allows everyone to share, modify, like and delete a movie post',
+      skills:'React, Redux, Express, Node, MongoDB, Material UI',
+      github: 'https://github.com/HannanAzari/movie-lovers',
+      demo: 'https://movie-lovers-frontend.onrender.com/'
     },
     {
       id: 2,
-      title: 'Music Player',
-      img: Music,
-      description: 'Listen to the list of music and switch between the songs',
-      skills:'React, CSS',
-      github: 'https://github.com/HannanAzari/music-player',
-      demo: 'https://hannanazari.github.io/music-player/'
+      title: 'Shopping Cart',
+      img: Shopping,
+      description: 'Shopping website with ability to add and delete products to the cart',
+      skills:'React, Typescript, Bootstrap',
+      github: 'https://github.com/HannanAzari/shopping-cart',
+      demo: 'https://hannanazari.github.io/shopping-cart/'
       
     },
     {
@@ -64,6 +66,25 @@ const Project = () => {
       skills:'React, CSS',
       github: 'https://github.com/HannanAzari/todolist',
       demo: 'https://hannanazari.github.io/todolist/'
+    },
+    {
+      id: 7,
+      title: 'Crypto Website',
+      img: Crypto,
+      description: 'Search for a crypto coin, and see the top 100 coins',
+      skills:'React, CSS',
+      github: 'https://github.com/HannanAzari/crypto',
+      demo: 'https://hannanazari.github.io/crypto/'
+    },
+    {
+      id: 8,
+      title: 'Music Player',
+      img: Music,
+      description: 'Listen to the list of music and switch between the songs',
+      skills:'React, CSS',
+      github: 'https://github.com/HannanAzari/music-player',
+      demo: 'https://hannanazari.github.io/music-player/'
+      
     }
     
   ]

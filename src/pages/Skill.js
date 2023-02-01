@@ -6,6 +6,7 @@ import REACT from '../images/react.png'
 import NODE from '../images/node.png'
 import REDUX from '../images/redux.png'
 import JS from '../images/JS.png'
+import TS from '../images/TS.png'
 import BOOTSTRAP from '../images/bootstrap.png'
 import MONGODB from '../images/mongodb.png'
 import MATERIAL from '../images/material-ui.png'
@@ -27,6 +28,10 @@ const Resume = () => {
     {
       name: 'JAVASCRIPT',
       img: JS
+    },
+    {
+      name: 'TYPESCRIPT',
+      img: TS
     },
     {
       name: 'REDUX',
