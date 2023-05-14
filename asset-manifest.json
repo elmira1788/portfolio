@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.97f50e32.css",
+    "main.js": "/portfolio/static/js/main.4a307bf6.js",
+    "static/media/travel-experience.png": "/portfolio/static/media/travel-experience.5ccd35c048fc1a86d91a.png",
+    "static/media/tic-tac-toe.png": "/portfolio/static/media/tic-tac-toe.68ce7284d220b6c99abe.png",
+    "static/media/giphy-gallery.png": "/portfolio/static/media/giphy-gallery.1e8ecbbd5cb82f962658.png",
+    "static/media/backgroundimg.jpg": "/portfolio/static/media/backgroundimg.4ad1a4cfa7374a9791cc.jpg",
+    "static/media/servo.png": "/portfolio/static/media/servo.cd31a0e3e4265670650e.png",
+    "static/media/todolist.png": "/portfolio/static/media/todolist.c58350192881ff3f61c3.png",
+    "static/media/femaleweb.png": "/portfolio/static/media/femaleweb.157e9f4178d89213596c.png",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.96bc9e1bf7f18e9ab8b3.pdf",
+    "static/media/logo.png": "/portfolio/static/media/logo.d98234d97b9e3348cd10.png",
+    "static/media/postgresql.png": "/portfolio/static/media/postgresql.7450f43479c709dee2c0.png",
+    "static/media/postman.png": "/portfolio/static/media/postman.a6ed2cc10ac006060f2e.png",
+    "static/media/react.png": "/portfolio/static/media/react.f3e576ba08e6be927148.png",
+    "static/media/redux.png": "/portfolio/static/media/redux.d171ebbdfb29ef0702ab.png",
+    "static/media/node.png": "/portfolio/static/media/node.71da8e5dd61c2ff164f8.png",
+    "static/media/JS.png": "/portfolio/static/media/JS.6b10805823ee818c8e78.png",
+    "static/media/html.png": "/portfolio/static/media/html.5139eb66b02855a1c137.png",
+    "static/media/css.png": "/portfolio/static/media/css.5d3f585222f506795d53.png",
+    "index.html": "/portfolio/index.html",
+    "main.97f50e32.css.map": "/portfolio/static/css/main.97f50e32.css.map",
+    "main.4a307bf6.js.map": "/portfolio/static/js/main.4a307bf6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97f50e32.css",
+    "static/js/main.4a307bf6.js"
+  ]
+}
