@@ -6,15 +6,15 @@ const Home = () => {
   return (
     <div className='social'>
       <div className='box'>
-        <a href='https://www.linkedin.com/in/hannan-azari-a3a479249' className='box1'>
+        <a href='https://linkedin.com/in/elmiraalimohammadi' className='box1'>
           <h3>Linkedin</h3>
           <i className="fa-brands fa-linkedin"></i>
         </a>
-        <a href='https://github.com/HannanAzari' className='box2'>
+        <a href='https://github.com/elmira1788' className='box2'>
           <h3>Github</h3>
           <i className="fa-brands fa-github"></i>
         </a>
-        <a href='mailto:hannan.azari@gmail.com' className='box3'>
+        <a href='mailto:elmiraalimohammadi@gmail.com' className='box3'>
           <h3>Email</h3>
           <i className="fa-solid fa-envelope"></i>
         </a>
@@ -24,13 +24,13 @@ const Home = () => {
         </a>
       </div>
       <div className='hidden'>
-        <a href='https://www.linkedin.com/in/hannan-azari-a3a479249' className='box1'>
+        <a href='https://linkedin.com/in/elmiraalimohammadi' className='box1'>
           <i className="fa-brands fa-linkedin"></i>
         </a>
-        <a href='https://github.com/HannanAzari' className='box2'>
+        <a href='https://github.com/elmira1788' className='box2'>
           <i className="fa-brands fa-github"></i>
         </a>
-        <a href='mailto:hannan.azari@gmail.com' className='box3'>
+        <a href='mailto:elmiraalimohammadi@gmail.com' className='box3'>
           <i className="fa-solid fa-envelope"></i>
         </a>
         <a href={CV} className='box4'>

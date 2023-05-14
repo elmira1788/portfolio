@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import WEB from '../images/web.png'
+import WEB from '../images/femaleweb.png'
 
 const Home = () => {
   return (
@@ -9,8 +9,8 @@ const Home = () => {
         <div  className='home'>
             
             <p>Hi, my name is</p>
-            <h1>Hannan Azari</h1>
-            <h2>I'm a Full Stack Developer</h2>
+            <h1>Elmira Alimohammadi</h1>
+            <h2>I'm a Software Engineer</h2>
             <p>Welcome to my portfolio website!</p>
         </div>
         <div className='home-img'>

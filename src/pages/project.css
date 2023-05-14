@@ -9,9 +9,7 @@
 .project h1 {
     font-family: 'Lobster', cursive;
     font-size: 50px;
-    color: aliceblue;
-    text-decoration: underline orange;
-    text-underline-offset: 0.5rem;
+    color: #0000FF;
     padding: 2rem;
 }
 .project .card-list{

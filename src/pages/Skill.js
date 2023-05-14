@@ -6,10 +6,10 @@ import REACT from '../images/react.png'
 import NODE from '../images/node.png'
 import REDUX from '../images/redux.png'
 import JS from '../images/JS.png'
-import TS from '../images/TS.png'
 import BOOTSTRAP from '../images/bootstrap.png'
 import MONGODB from '../images/mongodb.png'
-import MATERIAL from '../images/material-ui.png'
+import POSTGRES from '../images/postgresql.png'
+import POSTMAN from '../images/postman.png'
 
 const Resume = () => {
   const image = [
@@ -30,8 +30,8 @@ const Resume = () => {
       img: JS
     },
     {
-      name: 'TYPESCRIPT',
-      img: TS
+      name: 'POSTGRES',
+      img: POSTGRES
     },
     {
       name: 'REDUX',
@@ -46,8 +46,8 @@ const Resume = () => {
       img: BOOTSTRAP
     },
     {
-      name: 'MATERIAL UI',
-      img: MATERIAL
+      name: 'POSTMAN',
+      img: POSTMAN
     },
     {
       name: 'MONGO DB',

@@ -1,91 +1,52 @@
 import React from 'react'
 import Card from '../components/Card'
-import Music from '../images/music.png'
-import Game from '../images/game.png'
-import Food from '../images/food.png'
-import Crypto from '../images/crypto.png'
-import Gym from '../images/gym.png'
-import Movie from '../images/Movie.png'
+import Tic from '../images/tic-tac-toe.png'
 import Todolist from '../images/todolist.png'
-import Shopping from '../images/shopping.png'
+import Gighy from '../images/giphy-gallery.png'
+import Servo from '../images/servo.png'
+import Travel from '../images/travel-experience.png'
 import './project.css'
 
 const Project = () => {
   const card = [
     {
       id: 1,
-      title: 'Movie Lovers',
-      img: Movie,
-      description: 'A MERN app that allows everyone to share, modify, like and delete a movie post',
-      skills:'React, Redux, Express, Node, MongoDB, Material UI',
-      github: 'https://github.com/HannanAzari/movie-lovers',
-      demo: 'https://movie-lovers-frontend.onrender.com/'
+      title: 'Tic Tac Toe',
+      img: Tic,
+      description: 'A Tic Tac Toe game with features such as turn switching, visually displaying the winner, and displaying a draw message when no winner is found. After each round, players can reset the game and a few seconds of autoplay are included.To keep track of scores, a scoreboard records each players score.',
+      skills:'HTML, JavaScript, CSS, DOM manipulation',
+      github: 'https://github.com/elmira1788/Tic-Tac-Toe',
+      demo: 'https://elmira1788.github.io/Tic-Tac-Toe/'
     },
     {
       id: 2,
-      title: 'Shopping Cart',
-      img: Shopping,
-      description: 'Shopping website with ability to add and delete products to the cart',
-      skills:'React, Typescript, Bootstrap',
-      github: 'https://github.com/HannanAzari/shopping-cart',
-      demo: 'https://hannanazari.github.io/shopping-cart/'
+      title: 'Gif Finder',
+      img: Gighy,
+      description: 'A single-page application that fetches interesting GIFs from Giphy public API using AJAX to retrieve data from the server and react-router-dom to link to different pages of the application.',
+      skills:'React, Javascript, AJAX, Html, CSS',
+      github: 'https://github.com/elmira1788/gif-finder',
+      demo: 'https://elmira1788.github.io/gif-finder/'
       
     },
     {
       id: 3,
-      title: 'Food Recipe',
-      img: Food,
-      description: 'Look for an ingredient to see the food recipes',
-      skills:'React, CSS',
-      github: 'https://github.com/HannanAzari/food-recipe',
-      demo: 'https://hannanazari.github.io/food-recipe/'
-    },
-    {
+      title: 'Servo App',
+      img: Servo,
+      description: 'A single-page application that uses a custom-built REST JSON API to fetch data about petrol stations within specific boundaries and present them on a Google Maps API. The app calculates distances using a PostgreSQL query string and sorts them using an algorithm. Users can search for various service stations on the map using location data stored in a database.',
+      skills:'JavaScript, Axios, Node.js, PostgreSQL, EJS, Htnl, CSS',
+      github: 'https://github.com/elmira1788/servo_api',
+      demo: '#'
+    },{
       id: 4,
-      title: 'Fire Game',
-      img: Game,
-      description: 'Search for a video game, and see the popular,upcoming and new games',
-      skills:'React, Redux, Styled Component',
-      github: 'https://github.com/HannanAzari/fire-games',
-      demo: 'https://hannanazari.github.io/fire-games/'
+      title: 'Travel Experience',
+      img: Travel,
+      description: 'A password-protected memory app that allows users to log in and share their experiences with others. The app is a full-stack CRUD (Create, Read, Update, Delete) application that uses PostgreSQL to store the database and EJS (Embedded JavaScript) to create dynamic HTML templates.s',
+      skills:'JavaScript, PostgreSQL, HTML, CSS',
+      github: 'https://github.com/elmira1788/travelexperience',
+      demo: 'https://travelexperience.onrender.com/'
     },
-    {
-      id: 5,
-      title: 'Gym Exercises',
-      img: Gym,
-      description: 'Browse exercises related to the specific muscles and see the GIF workout',
-      skills:'React, Material UI',
-      github: 'https://github.com/HannanAzari/gym-exercises',
-      demo: 'https://hannanazari.github.io/gym-exercises/'
-    },
-    {
-      id: 6,
-      title: 'To Do List',
-      img: Todolist,
-      description: 'Make a list, tick when completed and remove as you wish',
-      skills:'React, CSS',
-      github: 'https://github.com/HannanAzari/todolist',
-      demo: 'https://hannanazari.github.io/todolist/'
-    },
-    {
-      id: 7,
-      title: 'Crypto Website',
-      img: Crypto,
-      description: 'Search for a crypto coin, and see the top 100 coins',
-      skills:'React, CSS',
-      github: 'https://github.com/HannanAzari/crypto',
-      demo: 'https://hannanazari.github.io/crypto/'
-    },
-    {
-      id: 8,
-      title: 'Music Player',
-      img: Music,
-      description: 'Listen to the list of music and switch between the songs',
-      skills:'React, CSS',
-      github: 'https://github.com/HannanAzari/music-player',
-      demo: 'https://hannanazari.github.io/music-player/'
-      
-    }
+    
+    
     
   ]
   return (

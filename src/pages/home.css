@@ -14,7 +14,7 @@
     align-items: flex-start;
 }
 .home h1{
-    color: orange;
+    color: #0000FF;
     font-size: 4rem;
     padding: 5px;
     font-family: 'Lobster', cursive;
@@ -22,12 +22,12 @@
 
 }
 .home h2{
-    color: aliceblue;
+    color: #000C66;
     font-size: 2rem;
     padding: 5px;
 }
 .home p{
-    color: aliceblue;
+    color: #000C66;
     font-size: 1.25rem;
     padding: 5px;
 

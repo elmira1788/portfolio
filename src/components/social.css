@@ -15,6 +15,9 @@
     transform: translateX(-100px);
 
 }
+.social .box a {
+text-decoration: none;
+}
 
 .social .box .box1 {
     height: 25%;
