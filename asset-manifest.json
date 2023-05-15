@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b3752948.css",
+    "main.css": "/portfolio/static/css/main.0534067c.css",
     "main.js": "/portfolio/static/js/main.336b0980.js",
     "static/media/travel-experience.png": "/portfolio/static/media/travel-experience.5ccd35c048fc1a86d91a.png",
     "static/media/tic-tac-toe.png": "/portfolio/static/media/tic-tac-toe.68ce7284d220b6c99abe.png",
@@ -20,11 +20,11 @@
     "static/media/html.png": "/portfolio/static/media/html.5139eb66b02855a1c137.png",
     "static/media/css.png": "/portfolio/static/media/css.5d3f585222f506795d53.png",
     "index.html": "/portfolio/index.html",
-    "main.b3752948.css.map": "/portfolio/static/css/main.b3752948.css.map",
+    "main.0534067c.css.map": "/portfolio/static/css/main.0534067c.css.map",
     "main.336b0980.js.map": "/portfolio/static/js/main.336b0980.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3752948.css",
+    "static/css/main.0534067c.css",
     "static/js/main.336b0980.js"
   ]
 }
